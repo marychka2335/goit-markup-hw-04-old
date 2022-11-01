@@ -501,6 +501,11 @@ h1 {
 }
 
 /* footer styles */
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-style {
   background: #2F303A;
   padding-top: 60px;
@@ -554,4 +559,29 @@ a[href*="goo.gl"]:focus {
 
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
+
+}
+
+.footer-contacts {
+  margin-right: 70px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social {
+  align-items: center;
+}
+
+.footer-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  margin-bottom: 20px;
 }
