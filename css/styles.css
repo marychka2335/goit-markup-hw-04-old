@@ -296,6 +296,7 @@ h1 {
 
 .business-icons {
   fill: #212121;
+
 }
 
 .specialty .title {
@@ -428,10 +429,17 @@ h1 {
 
 }
 
-.clients-icons-items {
+.client-items {
   border: 1px solid #AFB1B8;
   /* width: 170px;
   height: 92px; */
+
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.client-items:hover {
+  border: 1px solid var(--active-color);
 }
 
 /* projects-styles */
