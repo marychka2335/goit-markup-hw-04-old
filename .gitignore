@@ -25,6 +25,9 @@ coverage
 # DS_Store directories
 .DS_Store
 
+#exclude svg files
+/icons
+
 # nyc test coverage
 .nyc_output
 
