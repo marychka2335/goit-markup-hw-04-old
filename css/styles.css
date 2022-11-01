@@ -616,9 +616,21 @@ a[href*="goo.gl"]:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.footer-icons-items:not(:last-child) {
+.footer-social-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.footer-social-item {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  /* border: 1px solid #000000; */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.footer-social-item:hover {
+  background: var(--main-white-color);
+  border: 1px solid var(--main-white-color);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
