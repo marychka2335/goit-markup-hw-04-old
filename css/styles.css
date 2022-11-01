@@ -97,9 +97,6 @@ img {
   align-items: center;
 }
 
-
-
-
 .logo {
   font-family: var(--second-font);
   font-weight: 700;
@@ -138,6 +135,8 @@ img {
 .contact {
   color: var(--second-color);
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-container {
@@ -154,6 +153,15 @@ img {
   padding: 32px 0;
 }
 
+.contact-item-icon {
+  margin-right: 10px;
+
+}
+
+.header-icons {
+  fill: var(--second-color);
+}
+
 /* .contact .mail {
   padding: 32px 0;
 } */
@@ -163,8 +171,15 @@ img {
 .contact .link:hover,
 .contact .link:focus,
 .footer-style .link:hover,
-.footer-style .link:focus {
+.footer-style .link:focus,
+.contact-item-icon:hover,
+.contact-item-icon:focus {
   color: var(--active-color);
+}
+
+.contact-item-icon:hover,
+.contact-item-icon:focus {
+  stroke: var(--active-color);
 }
 
 .site-nav .link:active,
@@ -569,6 +584,7 @@ a[href*="goo.gl"]:focus {
 .footer-social-list {
   display: flex;
   align-items: center;
+  margin-left: 0;
 }
 
 .footer-social {
