@@ -609,3 +609,16 @@ a[href*="goo.gl"]:focus {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
+
+.footer-icons-items {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-icons-items:not(:last-child) {
+  margin-right: 10px;
+}
